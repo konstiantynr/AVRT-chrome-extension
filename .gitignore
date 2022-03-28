@@ -4,7 +4,7 @@
 
 # production
 /build
-
+/demo/failture
 # misc
 .DS_Store
 
