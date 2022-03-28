@@ -1,0 +1,30 @@
+{
+  "name": "chrm-ext",
+  "version": "0.1.0",
+  "description": "My Chrome Extension",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --mode=development --watch --config config/webpack.config.js",
+    "build": "webpack --mode=production --config config/webpack.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Huddle/PhantomCSS/issues"
+  },
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^0.10.1",
+    "phantomjs-prebuilt": "^2.1.16",
+    "resemblejs": "^3.0.0",
+    "size-plugin": "^2.0.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "xhr2": "^0.2.1"
+  }
+}
